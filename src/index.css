@@ -1,3 +1,7 @@
+:root {
+  --primary: #ffffff;
+  --secondary: #000000;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +9,61 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #a1a2a7
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.hero {
+  width: 100%;
+}
+
+a {
+  font-size: 20px;
+}
+
+.header-h1 {
+  color: var(--primary);
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  font-size: 30px;
+}
+
+.header-h2 {
+  color: var(--primary);
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  font-size: 20px
+}
+
+h1 {
+  color: #000000;
+}
+
+.card-deck {
+  margin: 20px;
+}
+
+.card {
+  min-width: 30%;
+}
+
+.indicator {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: large;
+  color: black
+
+}
+.card-image {
+  width: 200px
+}
+
+.banner {
+  width: 100%;
 }
