@@ -1,5 +1,4 @@
 import React from 'react'
-import Hero from "../../assets/header/hero.jpg"
 import Particles from "react-tsparticles";
 import particlesOptions from "../../particles.json";
 

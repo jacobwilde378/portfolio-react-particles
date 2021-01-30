@@ -9,7 +9,7 @@ function Portfolio() {
             description: 'This application will allow you to search for drink recipes.  It will also return the Wikipedia section about the primary alchol that is used.',
             link: 'https://jacobwilde378.github.io/ambitious-alcoholics/',
             repo: 'https://github.com/jacobwilde378/ambitious-alcoholics',
-            image: 'burn-book.jpg',
+            image: 'amb.jpg',
             alt: 'The burn book from mean girls'
         },
         {
@@ -47,8 +47,8 @@ function Portfolio() {
         {
             name: 'DinoStore',
             description: 'This is a dinosaur themed ecommerce store.',
-            link: 'no live URL yet',
-            repo: 'waiting to fork',
+            link: 'https://sheltered-meadow-01909.herokuapp.com/',
+            repo: 'https://github.com/jacobwilde378/dino-store',
             image: 'dinstore.jpg',
             alt: 'outline of dinosaur again black background.'
         },

@@ -2,7 +2,12 @@ import React from 'react'
 
 function Resume() {
     return (
+        <>
+        <div className="row justify-content-center">
+        <a href="https://www.linkedin.com/in/jacob-wilde-7a97a65b/">View my full Resume on LinkedIn</a>
+        </div>
         <article className="card-deck">
+            
             <div className="col">
                 <div className="card">
                     <div className="card-header">
@@ -73,6 +78,7 @@ function Resume() {
                 </div>
             </div>
         </article>
+        </>
     )
 }
 
